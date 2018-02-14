@@ -149,7 +149,7 @@
 								</div><!-- /.like/ -->
 
 								<div class="number-chat">
-									<div class="seven">7
+									<div id="seven1">7
 									</div>
 								</div><!-- /.number-chat/ -->
 
@@ -192,7 +192,7 @@
 									<div class="serach-input">
 										<form action="/action_page.php">	
 											<label for="add a comment"></label>
-											<input type="text1" id="add a comment" placeholder="Add a comment">
+											<input id= "input1" type="text1" id="add a comment" placeholder="Add a comment">
 										</form><!-- //action_page.php/ -->
 									</div><!-- /.serach-input/ -->
 								</div><!-- /.search-area/ -->
@@ -205,13 +205,14 @@
 
 								<div class="button-send">
 									<div class="send">
-										<button class="button">Send</button>
+										<button onclick="addMessage('input1', 'messagesContainer1', 'seven1')" class="button">Send</button>
 									</div><!-- /.send/ -->
 								</div><!-- /.button-send/ -->
 							</div><!-- /.middle-footer/ -->
 						</div><!-- /.section-footer/ -->
-					</div><!-- /.section-header/ -->
+					</div><!-- /.section-header/ -->		
 				</div><!-- /.section/ -->
+				<div id="messagesContainer1" class="messages-container"></div>
 
 				<div class="section-container-second">
 					<div class="section-second">
@@ -327,7 +328,7 @@
 									</div><!-- /.like/ -->
 
 									<div class="number-chat">
-										<div class="seven">7
+										<div id="seven2">7
 										</div>
 									</div><!-- /.number-chat/ -->
 
@@ -369,7 +370,7 @@
 										<div class="serach-input">
 											<form action="/action_page.php">	
 												<label for="add a comment"></label>
-												<input type="text1" id="add a comment" placeholder="Add a comment">
+												<input id="input2" type="text1" id="add a comment" placeholder="Add a comment">
 											</form><!-- /./action_page.php/ -->
 										</div><!-- /.serach-input/ -->
 									</div><!-- /.search-area/ -->
@@ -382,7 +383,7 @@
 
 									<div class="button-send">
 										<div class="send">
-											<button class="button">Send</button>
+											<button onclick="addMessage('input2', 'messagesContainer2', 'seven2')" class="button">Send</button>
 										</div><!-- /.send/ -->
 									</div><!-- /.button-send/ -->
 								</div><!-- /.middle-footer/ -->
@@ -390,6 +391,7 @@
 						</div><!-- /.section-header-second/ -->
 					</div><!-- /.section-second/ -->
 				</div><!-- /.section-container-second/ -->
+				<div id="messagesContainer2" class="messages-container"></div>
 			</div><!-- /.col-md-9/ -->
 
 			<div class="col-md-3">
