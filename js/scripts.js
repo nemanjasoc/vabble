@@ -19,7 +19,6 @@ function addMessage(inputId, msgContainerId, sevenId) {
 	inputElement.value = "";
 }
 
-
 function getMessageTemplate(messageText) {
 
 	var template = '<div class="single-message">' +
@@ -31,5 +30,3 @@ function getMessageTemplate(messageText) {
 
 	return template;
 }
-
-
