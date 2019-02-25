@@ -40,7 +40,6 @@ body {
 
 .navbar-right .navbar-left {
 	border-left: 1px solid #ccc;
-	border-left: 1px solid #ccc;
 	height: 58px;
 	padding-top: 5px;
 	margin-bottom: 4px;
@@ -317,6 +316,10 @@ button.dropbtn .glyphicon-option-vertical:hover {
 	cursor: pointer;
 }
 
+.dropdown-content .content-edit:hover {
+	background-color: #5bc0de;
+}
+
 .dropdown-content .content-delete {
 	color: black;
 	text-decoration: none;
@@ -325,6 +328,10 @@ button.dropbtn .glyphicon-option-vertical:hover {
 	padding-top: 4px;
 	padding-bottom: 10px;
 	cursor: pointer;
+}
+
+.dropdown-content .content-delete:hover {
+	background-color: #5bc0de;
 }
 
 .dropdown-content a:hover {
@@ -345,12 +352,12 @@ button.dropbtn .glyphicon-option-vertical:hover {
 	margin-right: 45px;
 }
 
-.user-name {
+.username {
 	display: flex;
 	flex-wrap: wrap;
 }
 
-.user-name p {
+.username p {
 	text-align: center;
 	margin-top: 20px;
 	align-items: ceter;
@@ -823,15 +830,13 @@ button.dropbtn-second {
 	margin-right: 50px;
 }
 
-.user-name-woman {
+.username-woman {
 	display: flex;
 	flex-wrap: wrap;
 }
 
-.user-name-woman p {
-	text-align: center;
-	margin-top: 25px;
-	align-items: ceter;
+.username-woman p {
+	margin-top: 23px;
 	color: #fff;
 	font-weight: bold;
 	font-size: 18px;
@@ -977,15 +982,13 @@ button.dropbtn-second {
 	margin-top: 2%;
 }
 
-.user-name-woman-third {
+.username-woman-third {
 	display: flex;
 	flex-wrap: wrap;
 }
 
-.user-name-woman-third p {
-	text-align: center;
+.username-woman-third p {
 	margin-top: 13px;
-	align-items: ceter;
 	color: #fff;
 	font-weight: bold;
 	font-size: 17px;
@@ -998,7 +1001,7 @@ button.dropbtn-second {
 }
 
 .user-uploaded-third p {
-	margin-top: 16px;
+	margin-top: 15px;
 	margin-left: 5px;
 	color: #fff;
 	font-size: 15px;
@@ -1418,6 +1421,7 @@ ul.navbar-right li a:hover {
 	.row .col-md-9 {
 		width: 66%;
 	}
+
 	.row .col-md-3 {
 		width: 31%;
 	}
